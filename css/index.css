@@ -93,3 +93,7 @@ a:hover {
 .landing-slider {
 	margin-bottom: 30pt;
 }
+
+.gallery img {
+	width: 100%;
+}

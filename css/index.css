@@ -11,6 +11,12 @@ a {
 	color: #444;
 }
 
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Fira Sans', sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
 a:hover {
 	color: #888;
 }

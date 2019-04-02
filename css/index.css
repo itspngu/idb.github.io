@@ -112,12 +112,11 @@ a:hover {
 	margin-top: 20pt;
 }
 
-.footer i {
-	vertical-align: middle;
-	font-size: 20pt;
+.footer a {
+	text-decoration: none;
+	color: #fff;
 }
 
 .footer .logo {
-	height: 20pt;
-	vertical-align: middle;
+	height: 35pt;
 }

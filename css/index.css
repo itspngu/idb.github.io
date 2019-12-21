@@ -126,3 +126,8 @@ a:hover {
 .footer .logo {
 	height: 35pt;
 }
+
+h2.main-header {
+	font-size: 5rem;
+	text-align: center;
+}

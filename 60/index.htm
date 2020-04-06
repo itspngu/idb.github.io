@@ -158,7 +158,7 @@
 			$(function() {
 				$(".rslides").responsiveSlides({speed: 700, timeout: 4000, random: true});
 				$(".rslides > li").each(function(i, e) {
-					e.css("top", 600 - (e.find("img").height() / 2) + "px");
+					$(e).css("top", 600 - ($(e).find("img").height() / 2) + "px");
 				});
 			});
 		</script>

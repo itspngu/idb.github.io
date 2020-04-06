@@ -156,12 +156,11 @@
 		</div>
 		<script>
 			$(function() {
-				$(".rslides").responsiveSlides({speed: 700, timeout: 4000, random: true});
+				$(".rslides").responsiveSlides({speed: 700, timeout: 4000, random: false});
 			});
 			$(document).ready(function() {
 				$(".rslides > li").each(function(i, e) {
-					console.log($(e).find("img")[0].naturalHeight)
-					$(e).css("top", 600 - ($(e).find("img")[0].naturalHeight / 2) + "px");
+					$(e).css("top", (600 - $(e).find("img")[0].naturalHeight) / 2 + "px");
 				});
 			});
 		</script>

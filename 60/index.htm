@@ -160,7 +160,7 @@
 			});
 			$(document).ready(function() {
 				$(".rslides > li").each(function(i, e) {
-					$(e).css("top", (600 - $(e).find("img")[0].innerHeight()) / 2 + "px");
+					$(e).css("top", (600 - $(e).find("img")[0].outerHeight()) / 2 + "px");
 				});
 			});
 		</script>
